@@ -7,7 +7,7 @@ import { BigDataType } from "@/types";
 export default function Home() {
     return (
         <div className="min-h-screen flex flex-col items-center justify-center">
-            <div className="w-[60rem] aspect-video">
+            <div className="w-[75rem] aspect-video">
                 {bigData.map(
                     (
                         { applicant, nextStep, skills, finish }: BigDataType,
