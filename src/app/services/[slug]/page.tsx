@@ -8,7 +8,11 @@ export default function Page({ params }: ServicesParams) {
     const title = params.slug.replaceAll("-", " ");
     return (
         <div className="min-h-screen flex flex-col items-center justify-center">
-            <img src="/images/logo.svg" alt="Launching Max" className="w-52" />
+            <img
+                src="../images/logo.svg"
+                alt="Launching Max"
+                className="w-52"
+            />
             <div
                 className="aspect-video min-w-96 px-10 capitalize text-stone-100 flex items-center justify-center text-4xl shadow-2xl rounded-xl"
                 style={{ backgroundColor: `#${color}` }}

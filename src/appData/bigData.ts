@@ -70,7 +70,7 @@ export default [
                 color: "#114B94",
             },
         ],
-        nextStep: { image: "/images/map.png", color: "#114B94" },
+        nextStep: { image: "./images/map.png", color: "#114B94" },
         finish: false,
     },
     {
@@ -107,7 +107,7 @@ export default [
                 color: "#3E4243",
             },
         ],
-        nextStep: { image: "/images/map.png", color: "#114B94" },
+        nextStep: { image: "./images/map.png", color: "#114B94" },
         finish: { title: "Finish", icon: "fa-solid fa-earth-americas" },
     },
 ];

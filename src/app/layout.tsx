@@ -19,7 +19,7 @@ export default function RootLayout(props: Props) {
         <html lang="en">
             <body className={inter.className}>
                 {/* add fontawesome by script file*/}
-                <Script defer src="/js/all.js" />
+                <Script defer src="./js/all.js" />
                 {children}
             </body>
         </html>
